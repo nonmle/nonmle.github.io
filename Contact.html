@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nonmle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+    <header>
+        <div id="mobile_container">
+        <a href="./index.html">nonmle</a>
+        <div id="mobile-menu-icon-open"><span class="material-symbols-outlined">Menu</span></div>
+        <div id="mobile-menu-icon-close"><span class="material-symbols-outlined">Close</span></div>
+        </div>
+        <nav id="mobile-menu">
+            <ul>
+                <li><a title="Github Page" href="javascript:Github" onclick="location.href='https://github.com/nonmle'">Github<span class="material-symbols-outlined" id="arrow_outward">arrow_outward</span></a></li>
+            <!--<li><a title="Go Back to Homepage" href="javascript:Contact" onclick="location.href='https://nonmle.github.io/com'">Home<span class="material-symbols-outlined" id="arrow_outward">arrow_outward</span></a></li>-->
+                <li><a title="Copyright: Volodymyr Hryshchenko" href="javascript:Unsplash" onclick="location.href='https://unsplash.com/lunarts'" id="active">Copyright: Volodymyr Hryshchenko</a></li>
+                <li><span title="Change theme" class="material-symbols-outlined" id="theme-toggle">contrast</span></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <section id="section_content">
+                <div id="content">
+                    <div id="contact">
+                        <h1>Conact <br> Form & E-Mail</h1>
+                        <p>Feel free to contact me here. You can either fill out the form to send your message or email me directly.</p>
+                        <form action="https://formspree.io/f/meqypwrz" method="POST">
+                            <label>
+                                <input title="Type here your Name" type="text" name="name" placeholder="Name">
+                              </label>
+                            <label>
+                              <input title="Type here your E-Mail" type="email" name="email" placeholder="E-Mail">
+                            </label>
+                            <label>
+                              <textarea title="Type here your Message" name="message" placeholder="Message" style="resize: none;"></textarea>
+                            </label>
+                            <button title="Click here to Submit" type="submit">Submit</button>
+                        </form>
+
+                        <div id="contact_mn">
+                        <a title="E-Mail: nonmle@duck.com" href="mailto: nonmle@duck.com"><span class="material-symbols-outlined">mail</span>nonmle[at]duck.com</a>
+                        <!-- <a title="030123456789" href="tel.: 030123456789"><span class="material-symbols-outlined">call</span>030123456789</a> -->
+                        </div>
+                    </div>
+                    <div id="social">
+                        <p>Follow me on:</p>
+                        <a title="Behance" href="javascript:Behance" onclick="location.href='https://behance.net'"><i class="fa-brands fa-behance"></i></a>
+                        <a title="X-Twitter" href="javascript:X-Twitter" onclick="location.href='https://x.com'"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a title="Instagram" href="javascript:Instagram" onclick="location.href='https://Instagram.com'"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div id="img">
+                    <img title="This Picutre is from Unsplash. Copyright: Volodymyr Hryshchenko" src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+
+<style>
+
+    #img{
+        width: 100%;
+    }
+
+    #content{
+        width: auto;
+        height: auto;
+        margin-top: 0;
+        margin-right: 50px;
+        border: 0.5px solid transparent;
+        padding: 35px 50px 0px 0px;
+        border-radius: 32px;
+    }
+
+    @media only screen and (max-width: 768px){
+
+    #img{
+        height: 70vh;
+    }
+
+    main, article, #section_content{
+        height: 100%;
+    }
+
+    #content{
+        height: 88vh;
+        margin-top: 25px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    #content h1{
+        padding: 12pt 0;
+    }
+
+    #contact,
+    form,
+    label,
+    button{
+        width: auto;
+    }
+
+    #contact h1{
+        font-size: 24pt;
+    }
+
+    #contact p{
+        font-size: 12pt;
+    }
+    }
+
+</style>
+
+</html>
